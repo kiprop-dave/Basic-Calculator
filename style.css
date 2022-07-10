@@ -1,6 +1,18 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-all {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+}
+
 .container {
-    margin-left: 2cm;
-    margin-top: 2cm;
+    border-radius: 10px;
     display: grid;
     height: 15cm;
     width: 14cm;
