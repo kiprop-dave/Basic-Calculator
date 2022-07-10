@@ -139,11 +139,9 @@ body {
 
 
     .container {
-        margin-left: 0;
-        margin-top: 0;
         display: grid;
-        height: 10cm;
-        width: 7.5cm;
+        height: 15cm;
+        width: 13cm;
         gap: 0.2rem;
         background-color: burlywood;
         grid-template-areas:
@@ -166,7 +164,7 @@ body {
     .container>.item1 {
         display: block;
         grid-area: a;
-        height: 2cm;
+        height: 4cm;
         background-color: black;
         border-radius: 0%;
         color: white;
@@ -175,7 +173,7 @@ body {
     }
 
     .container>.item1>.status {
-        height: 1cm;
+        height: 3cm;
     }
 
     .container>.item1>.result {
